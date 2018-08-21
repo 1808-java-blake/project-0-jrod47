@@ -1,0 +1,332 @@
+2018-08-19 13:21:06 ERROR UserDaoJdbc:40 - ERROR: value too long for type character varying(5)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:36)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - com.revature.screens.SingUpScreen.start(SingUpScreen.java:30)
+2018-08-19 13:21:06 ERROR UserDaoJdbc:42 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-19 13:21:06 WARN  UserDaoJdbc:44 - failed to create new user
+2018-08-19 13:23:38 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-19 13:28:24 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-19 17:58:23 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:39 - ERROR: column "account_number" is of type integer but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:28)
+2018-08-19 19:46:28 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-19 19:46:28 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-19 19:51:12 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:39 - ERROR: column "account_number" is of type integer but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:28)
+2018-08-19 19:51:49 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-19 19:51:49 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:39 - ERROR: column "account_number" is of type integer but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:28)
+2018-08-19 20:37:01 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-19 20:37:01 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:28)
+2018-08-19 20:52:59 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-19 20:52:59 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-20 12:59:27 WARN  UserDaoJdbc:73 - failed to find user with provided credentials from the db
+2018-08-20 13:00:03 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 13:00:07 WARN  UserDaoJdbc:73 - failed to find user with provided credentials from the db
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:39 - ERROR: null value in column "type_account" violates not-null constraint
+  Detail: Failing row contains (1, savings, null, 0, 0).
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:30)
+2018-08-20 13:19:45 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 13:19:45 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:39 - ERROR: null value in column "type_account" violates not-null constraint
+  Detail: Failing row contains (2, savings, null, 0, 0).
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 13:25:41 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 13:25:41 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-20 13:25:41 ERROR CreateBankAccountScreen:39 - failed to create weapon
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 13:45:23 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 13:45:23 WARN  AccountDaoJdbc:43 - failed to create new user
+2018-08-20 13:45:23 ERROR CreateBankAccountScreen:39 - failed to create weapon
+2018-08-20 13:47:00 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 14:01:14 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 14:01:14 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 14:01:14 ERROR CreateBankAccountScreen:39 - failed to create weapon
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:51)
+2018-08-20 14:18:02 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 14:18:02 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 14:37:27 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 14:37:27 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 14:37:27 INFO  CreateBankAccountScreen:43 - created weaponAccount [accountId=0, accountNumber=savings, balance=0, accountType=null, userId=0]
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 14:59:20 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 14:59:20 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 14:59:20 ERROR CreateBankAccountScreen:39 - failed to create weapon
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:02:20 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:02:20 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:02:20 ERROR CreateBankAccountScreen:39 - failed to create Account
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:10:17 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:10:17 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:10:17 ERROR CreateBankAccountScreen:39 - failed to create Account
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:13:44 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:13:44 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:13:44 ERROR CreateBankAccountScreen:39 - failed to create Account
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:15:35 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:15:35 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:15:35 INFO  CreateBankAccountScreen:43 - created weaponAccount [accountId=0, accountNumber=savings, balance=0, accountType=null, userId=0]
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:39 - ERROR: null value in column "type_account" violates not-null constraint
+  Detail: Failing row contains (1, savings, null, 0, 0).
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:19:33 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:19:33 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:19:33 INFO  CreateBankAccountScreen:43 - created accountAccount [accountId=0, accountNumber=savings, balance=0, accountType=null, userId=0]
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:39 - ERROR: null value in column "type_account" violates not-null constraint
+  Detail: Failing row contains (2, savings, null, 0, 0).
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:22:53 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:22:53 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:22:53 INFO  CreateBankAccountScreen:43 - created accountAccount [accountId=0, accountNumber=savings, balance=0, accountType=null, userId=0]
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:39 - ERROR: null value in column "type_account" violates not-null constraint
+  Detail: Failing row contains (3, savings, null, 0, 0).
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:26:47 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:26:47 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:26:47 ERROR CreateBankAccountScreen:39 - failed to create Account
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:30:52 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:30:52 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:30:52 ERROR CreateBankAccountScreen:39 - failed to create Account
+2018-08-20 15:46:36 WARN  UserDaoJdbc:73 - failed to find user with provided credentials from the db
+2018-08-20 15:46:41 WARN  UserDaoJdbc:73 - failed to find user with provided credentials from the db
+2018-08-20 15:46:54 TRACE AccountDaoJdbc:30 - 1 records created
+2018-08-20 15:46:54 TRACE AccountDaoJdbc:34 - generated account id is1
+2018-08-20 15:46:54 INFO  CreateBankAccountScreen:43 - created accountAccount [accountId=1, accountNumber=111, balance=0, accountType=savings, userId=0]
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "accounts_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:37)
+2018-08-20 15:53:33 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 15:53:33 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 15:53:33 ERROR CreateBankAccountScreen:39 - failed to create Account
+2018-08-20 16:00:21 TRACE AccountDaoJdbc:30 - 1 records created
+2018-08-20 16:00:21 TRACE AccountDaoJdbc:34 - generated account id is2
+2018-08-20 16:00:21 INFO  CreateBankAccountScreen:44 - created accountAccount [accountId=2, accountNumber=111, balance=0, accountType=Savings, userId=3]
+2018-08-20 16:40:07 WARN  UserDaoJdbc:73 - failed to find user with provided credentials from the db
+2018-08-20 20:53:42 WARN  UserDaoJdbc:73 - failed to find user with provided credentials from the db
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:39 - ERROR: duplicate key value violates unique constraint "accounts_account_number_key"
+  Detail: Key (account_number)=(111) already exists.
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - com.revature.screens.CreateBankAccountScreen.start(CreateBankAccountScreen.java:38)
+2018-08-20 20:55:03 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:12)
+2018-08-20 20:55:03 WARN  AccountDaoJdbc:43 - failed to create new Account
+2018-08-20 20:55:03 ERROR CreateBankAccountScreen:40 - failed to create Account
+2018-08-20 20:55:26 TRACE AccountDaoJdbc:30 - 1 records created
+2018-08-20 20:55:26 TRACE AccountDaoJdbc:34 - generated account id is4
+2018-08-20 20:55:26 INFO  CreateBankAccountScreen:44 - created accountAccount [accountId=4, accountNumber=222, balance=0, accountType=checkings, userId=3]
+2018-08-20 22:24:32 TRACE AccountDaoJdbc:30 - 1 records created
+2018-08-20 22:24:32 TRACE AccountDaoJdbc:34 - generated account id is5
+2018-08-20 22:24:32 INFO  CreateBankAccountScreen:44 - created accountAccount [accountId=5, accountNumber=, balance=0, accountType=, userId=3]
+2018-08-21 09:38:53 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-21 09:51:54 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-21 10:04:46 WARN  UserDaoJdbc:76 - failed to find user with provided credentials from the db
+2018-08-21 11:05:28 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-21 11:05:47 WARN  UserDaoJdbc:76 - failed to find user with provided credentials from the db

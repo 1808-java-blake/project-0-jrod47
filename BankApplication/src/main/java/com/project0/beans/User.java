@@ -1,23 +1,55 @@
 package com.project0.beans;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
-public class User implements Serializable {
+public class User implements Serializable{
+	
 	
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 6546033281973563358L;
 	
 	private String username;
 	private String password;
 	private String firstName;
 	private String lastName;
-	private int age;
-	
+	private boolean admin;
+	private ArrayList<String> accounts;
+
 	public User() {
 		super();
-		// TODO Auto-generated constructor stub
+	}
+
+	public User(String username, String password, String firstName, String lastName, boolean admin) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.admin = admin;
+		
+	}
+
+	public ArrayList<String> getAccounts() {
+		return accounts;
+	}
+
+	public void addaccount(String account) {
+		if(accounts == null) {
+			this.accounts = new ArrayList<>();
+		}
+		this.accounts.add(account);
+		
+	}
+
+	public boolean isAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(boolean admin) {
+		this.admin = admin;
 	}
 
 	public String getUsername() {
@@ -52,19 +84,10 @@ public class User implements Serializable {
 		this.lastName = lastName;
 	}
 
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + age;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
@@ -81,8 +104,6 @@ public class User implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		if (age != other.age)
-			return false;
 		if (firstName == null) {
 			if (other.firstName != null)
 				return false;
@@ -109,13 +130,7 @@ public class User implements Serializable {
 	@Override
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", age=" + age + "]";
+				+ lastName + ", accounts=" + accounts + "]";
 	}
-	
-	
-	
-	
-	
-	
 
 }
