@@ -7,26 +7,24 @@ import java.util.Scanner;
 
 import com.revature.beans.User;
 import com.revature.daos.UserDao;
+import com.revature.util.AppState;
 
 
 public class BankOptionsScreen implements Screen {
 	private Scanner scan = new Scanner(System.in);
-	private User user;
-	private double userInputAmount;
 	private String userTransactionLog;
+	private AppState state = AppState.state;
+	UserDao ud = UserDao.currentUserDao;
 
 	NumberFormat formatter = NumberFormat.getCurrencyInstance();
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 
-	public BankOptionsScreen(User currentUser) {
-		user = currentUser;
-	}
-
-	public double getUserInput(){
-		return userInputAmount =  Double.valueOf(scan.nextLine());
-	}
-
 	public Screen start() {
+		User currentUser = state.getCurrentUser();
+		if(currentUser == null) {
+			return new LoginScreen();
+		}
+		
 		System.out.println("\n******************************");
 		System.out.println("\n Welcome to the Home Menu: ");
 		System.out.println("\n******************************");
@@ -44,45 +42,46 @@ public class BankOptionsScreen implements Screen {
 					System.out.println("\nWhant to Deposit?");
 					System.out.println("\n------------------------------");
 					System.out.println("Enter amount you want to deposit:");
-					UserDao.currentUserDao.deposit(getUserInput(), user);
+					String depAmount = scan.nextLine();
+					UserDao.currentUserDao.deposit(Double.valueOf(depAmount), currentUser);
 
-					userTransactionLog = "You deposited: " + formatter.format(userInputAmount);
+					userTransactionLog = "You deposited: " + formatter.format(Integer.valueOf(depAmount));
 					System.out.println(userTransactionLog);
 
 					userTransactionLog = userTransactionLog + " on " + dtf.format(LocalDateTime.now());
-					UserDao.currentUserDao.addTransactionLog(userTransactionLog, user);
+					UserDao.currentUserDao.addTransactionLog(userTransactionLog, currentUser);
 					break;
 			case "2":
 					System.out.println("\n------------------------------");
 					System.out.println("\nWhant to Withdraw?");
 					System.out.println("\n------------------------------");
 					System.out.println("Enter amount you want to withdraw: ");
-					double check = getUserInput();
+					String withAmount = scan.nextLine();
 
-					if(check > user.getBalance()){
+					if(Double.valueOf(withAmount) > currentUser.getBalance()){
 						System.out.println("You don't have enough funds in this account.");
 						break;
 					}
 
-					UserDao.currentUserDao.withdraw(check, user);
-					userTransactionLog = "You withdraw: " + formatter.format((check));
+					UserDao.currentUserDao.withdraw(Double.valueOf(withAmount), currentUser);
+					userTransactionLog = "You withdraw: " + formatter.format((Integer.valueOf(withAmount)));
 					System.out.println(userTransactionLog);
 
 					userTransactionLog = userTransactionLog + " on " + dtf.format(LocalDateTime.now());
-					UserDao.currentUserDao.addTransactionLog(userTransactionLog, user);
+					UserDao.currentUserDao.addTransactionLog(userTransactionLog, currentUser);
 
 				break;
 			case "3":
 					System.out.println("\n------------------------------");
-					System.out.println("\nHello, " + user.getFirstName() +" "+ user.getLastName());
-					System.out.println("\nYour current balance is: " + formatter.format(user.getBalance()));
+					System.out.println("\nHello, " + currentUser.getFirstName() +" "+ currentUser.getLastName());
+					System.out.println("\nYour current balance is: " + formatter.format(currentUser.getBalance()));
 					System.out.println("\n------------------------------");
 						
 				break;
 			case "4":
 					System.out.println("\n------------------------------");
 					System.out.println("\nYour transaction history is:");
-					System.out.println(user.getLog().replaceAll("null", ""));
+					System.out.println(currentUser.getLog().replaceAll("null", ""));
 					System.out.println("\n------------------------------");
 					break;
 			case "5":

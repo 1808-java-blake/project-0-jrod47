@@ -30,7 +30,7 @@ public class LoginScreen implements Screen {
 		User currentUser = ud.findByUsernameAndPassword(username, password);
 		if (currentUser != null) {
 			state.setCurrentUser(currentUser); 
-			return new BankOptionsScreen(currentUser);
+			return new BankOptionsScreen();
 		}
 
 		System.out.println("unable to login");
